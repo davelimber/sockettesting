@@ -12,6 +12,12 @@ io.on('connection', function(socket){
   });
 });
 
+// io.on('connection', function(socket){
+//   socket.on('draw', function(params) {
+//      io.emit('draw',params);
+//   });
+// });
+
 http.listen(3000, function(){
   console.log('listening on *:3000');
 });
